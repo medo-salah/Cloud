@@ -1,7 +1,3 @@
-'''
-Name:Mohamed Sameh Salah El Dine
-ID:22011559
-'''
 from collections import Counter
 import logging
 
@@ -66,7 +62,7 @@ def process_paragraphs(filename):
     logging.info(f"{word}: {count}")
 
 # Update the file path to match your specific location (optional)
-filename = "D:/Visual_StudioCode/Cloud_Assignment/random_paragraphs.txt"
+filename = "random_paragraphs.txt"
 
 if __name__ == "__main__":
   process_paragraphs(filename)
